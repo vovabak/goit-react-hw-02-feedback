@@ -8,7 +8,7 @@ export const Statistics = ({good, neutral, bad, total, positivePercentage}) => {
             <StatisticsText>Neutral: {neutral}</StatisticsText>
             <StatisticsText>Bad: {bad}</StatisticsText>
             <StatisticsText>Total: {total}</StatisticsText>
-            <StatisticsText>Positive feedback: {positivePercentage && positivePercentage != 0
+            <StatisticsText>Positive feedback: {positivePercentage && positivePercentage !== 0
             ? `${positivePercentage}%` : 0 }</StatisticsText>      
         </StatisticsSection>
 }
